@@ -89,12 +89,12 @@ $closeTimer = (strtotime(date('Y-m-d G:i:s'))-strtotime(get_the_time('Y-m-d G:i:
                                           <div class="row" id="comment-author-info">
                                                 <div class="col-md-4">
                                                 <div class="form-group">
-												<input type="text" name="author" id="author" class="form-control" value="<?php echo $comment_author; ?>" placeholder="<?php echo __('昵称 *', 'meowdata') ?>" tabindex="1">
+												<input type="text" name="author" id="author" class="form-control" value="<?php echo $comment_author; ?>" placeholder="<?php echo __('昵称(可匿名)', 'meowdata') ?>" tabindex="1">
                                                 </div>
                                           </div><!-- Col 4 end -->
                                           <div class="col-md-4">
                                                 <div class="form-group">
-												<input type="email" name="email" id="email" class="form-control" value="<?php echo $comment_author_email; ?>" placeholder="<?php echo __('邮箱 *', 'meowdata') ?>"  tabindex="2" />
+												<input type="email" name="email" id="email" class="form-control" value="<?php echo $comment_author_email; ?>" placeholder="<?php echo __('邮箱(可选填)', 'meowdata') ?>"  tabindex="2" />
                                                 </div>
                                           </div>
                                           
@@ -102,7 +102,7 @@ $closeTimer = (strtotime(date('Y-m-d G:i:s'))-strtotime(get_the_time('Y-m-d G:i:
                                           <div class="row">
                                           <div class="col-md-12">
                                                 <div class="form-group">
-												<textarea class="form-control  required-field" rows="5" name="comment" id="comment" tabindex="4" placeholder="你可以在这里输入评论内容..."></textarea>
+												<textarea class="form-control  required-field" rows="5" name="comment" id="comment" tabindex="4" placeholder="说点什么吧(☆▽☆)..."></textarea>
                                                 </div>
                                           </div><!-- Col 12 end -->
                                     </div><!-- Form row end -->
