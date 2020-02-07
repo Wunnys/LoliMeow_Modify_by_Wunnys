@@ -36,8 +36,7 @@ $('#live2d').click(function(){
         <div class="col-md-12">
           <div class="copyright text-center">
             © <?php echo date('Y'); ?> <a href="<?php echo home_url();?>" ><?php echo get_bloginfo( 'name' );?> </a>. Theme by <a href="https://www.boxmoe.com"  target="_blank" >LoLiMeow</a>&nbsp;<?php echo get_num_queries(); ?> queries in <?php timer_stop(3); ?> s &nbsp;<?php echo meowdata('footer_info') ?> <div <?php if(meowdata('trackcodehidden'))echo 'style="display:none;"'?>><?php echo meowdata('trackcode') ?>
-            <?php if(meowdata('webinfopage')) echo '<a href=/wp-content/themes/lolimeow-master/Webinfo.php>网站信息</a>';?>
-            <?php _e('<br>已在风雨中度过'); ?> <span id="runTime">Loading...</span>
+            <?php _e('已在风雨中度过'); ?> <span id="runTime">Loading...</span>
             <?php if(meowdata('icp_num')) echo '<br><a href="http://www.beian.miit.gov.cn/" rel="external nofollow" target="_blank">'.meowdata('icp_num').'</a>';
                   if(meowdata('gov_num')) echo '<a href="'.meowdata('gov_link').'" rel="external nofollow" target="_blank"><i class="govimg"></i>'.' || '.meowdata('gov_num').'</a>'; ?>
           </div>

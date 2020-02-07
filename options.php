@@ -192,12 +192,6 @@ function optionsframework_options() {
 		'desc'=>__('输入您的公安网备案号'),
 		'id'=>'gov_num',
 		'type'=>'text');
-	$options[] = array(
-		'name'=>__('网站服务器信息'),
-		'id' => 'webinfopage',
-		'type' => "checkbox",
-		'std' => false,
-		'desc' => __('开启 （显示网站服务器信息页面）'));
 
      
     /* 
